@@ -128,61 +128,71 @@ Targeted applies are useful for staged troubleshooting/bootstrap work, but they 
 
 ## Screenshots
 
-The images below document the deployment and application workflow. Personal and security-sensitive details identified in the original captures have been redacted in the prepared images.
+The gallery below uses the exact filenames uploaded to this repository. Four screenshots that may expose credentials or personal/database records are intentionally not embedded until redacted; replace those original files with safe copies before featuring them in a public portfolio.
 
 ### Architecture & Networking
 
 <table>
-<tr><td align="center" valign="top"><strong>VPC and core network</strong><br><img src="Screenshots/vpc.webp" alt="VPC and core network" width="460"></td><td align="center" valign="top"><strong>Public and private subnets</strong><br><img src="Screenshots/subnets.webp" alt="Public and private subnets" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Route tables</strong><br><img src="Screenshots/route-tables.webp" alt="Route tables" width="460"></td><td align="center" valign="top"><strong>Security groups</strong><br><img src="Screenshots/security-groups.webp" alt="Security groups" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>VPC and core network</strong><br><img src="Screenshots/vpc.png" alt="VPC and core network" width="460"></td><td align="center" valign="top"><strong>Public and private subnets</strong><br><img src="Screenshots/subnets.jpg" alt="Public and private subnets" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Route tables</strong><br><img src="Screenshots/Route-tables.jpg" alt="Route tables" width="460"></td><td align="center" valign="top"><strong>Security groups</strong><br><img src="Screenshots/security-groups.png" alt="Security groups" width="460"></td></tr>
 </table>
+
 
 ### Compute & Auto Scaling
 
 <table>
-<tr><td align="center" valign="top"><strong>AMI created</strong><br><img src="Screenshots/ami-created.webp" alt="AMI created" width="460"></td><td align="center" valign="top"><strong>EC2 servers</strong><br><img src="Screenshots/ec2-servers.webp" alt="EC2 servers" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>EC2 key pair configuration</strong><br><img src="Screenshots/key-pair-name.webp" alt="EC2 key pair configuration" width="460"></td><td align="center" valign="top"><strong>Frontend instance type change</strong><br><img src="Screenshots/changed-frontend-server-instance-type.webp" alt="Frontend instance type change" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Auto Scaling Group created</strong><br><img src="Screenshots/asg-created.webp" alt="Auto Scaling Group created" width="460"></td><td align="center" valign="top"><strong>Auto Scaling Terraform plan</strong><br><img src="Screenshots/terraform-plan-for-auto-scaling-groups.webp" alt="Auto Scaling Terraform plan" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Auto Scaling Terraform apply</strong><br><img src="Screenshots/terraform-apply-for-asg.webp" alt="Auto Scaling Terraform apply" width="460"></td><td></td></tr>
+<tr><td align="center" valign="top"><strong>AMI created</strong><br><img src="Screenshots/ami-created.jpg" alt="AMI created" width="460"></td><td align="center" valign="top"><strong>EC2 servers</strong><br><img src="Screenshots/Ec2-servers.png" alt="EC2 servers" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>EC2 key pair configuration</strong><br><img src="Screenshots/Key-pair-name.jpg" alt="EC2 key pair configuration" width="460"></td><td align="center" valign="top"><strong>Auto Scaling Group created</strong><br><img src="Screenshots/ASG-Created.jpg" alt="Auto Scaling Group created" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Terraform plan for Auto Scaling Groups</strong><br><img src="Screenshots/terraform-plan-for-auto-scalling-h=groups.jpg" alt="Terraform plan for Auto Scaling Groups" width="460"></td><td align="center" valign="top"><strong>Terraform apply for Auto Scaling Groups</strong><br><img src="Screenshots/terraform-apply-for-asg.jpg" alt="Terraform apply for Auto Scaling Groups" width="460"></td></tr>
 </table>
+
 
 ### Load Balancing, TLS & DNS
 
 <table>
-<tr><td align="center" valign="top"><strong>Application Load Balancers</strong><br><img src="Screenshots/load-balancers.webp" alt="Application Load Balancers" width="460"></td><td align="center" valign="top"><strong>Backend target group attached</strong><br><img src="Screenshots/backend-tg-attached.webp" alt="Backend target group attached" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Target group and target health</strong><br><img src="Screenshots/target-group-attached.webp" alt="Target group and target health" width="460"></td><td align="center" valign="top"><strong>ACM certificate configuration</strong><br><img src="Screenshots/added-acm-certificate.webp" alt="ACM certificate configuration" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Route 53 hosted zone</strong><br><img src="Screenshots/created-route53.webp" alt="Route 53 hosted zone" width="460"></td><td align="center" valign="top"><strong>Route 53 DNS record</strong><br><img src="Screenshots/created-dns-record-for-route53.webp" alt="Route 53 DNS record" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Alias record pointing to load balancer</strong><br><img src="Screenshots/created-a-alias-record-with-lb.webp" alt="Alias record pointing to load balancer" width="460"></td><td align="center" valign="top"><strong>Website accessed through frontend ALB</strong><br><img src="Screenshots/accessed-website-frontend-alb.webp" alt="Website accessed through frontend ALB" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Website accessed through custom domain</strong><br><img src="Screenshots/accessed-website-through-custom-domain.webp" alt="Website accessed through custom domain" width="460"></td><td></td></tr>
+<tr><td align="center" valign="top"><strong>Application Load Balancers</strong><br><img src="Screenshots/Load-balancers.jpg" alt="Application Load Balancers" width="460"></td><td align="center" valign="top"><strong>Backend target group attached</strong><br><img src="Screenshots/backend-tg-attached.jpg" alt="Backend target group attached" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Target group attached</strong><br><img src="Screenshots/Target-group-attached.jpg" alt="Target group attached" width="460"></td><td align="center" valign="top"><strong>ACM certificate</strong><br><img src="Screenshots/added-acm-certificate.jpg" alt="ACM certificate" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Alias record pointing to load balancer</strong><br><img src="Screenshots/created-a-alias-record-with-lb.jpg" alt="Alias record pointing to load balancer" width="460"></td><td align="center" valign="top"><strong>Website accessed through frontend ALB</strong><br><img src="Screenshots/accessed-website-frontend-alb.jpg" alt="Website accessed through frontend ALB" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Website accessed through custom domain</strong><br><img src="Screenshots/accessed-website%20through-custom-domain.jpg" alt="Website accessed through custom domain" width="460"></td><td></td></tr>
 </table>
+
 
 ### Database
 
 <table>
-<tr><td align="center" valign="top"><strong>Amazon RDS database instance</strong><br><img src="Screenshots/database.webp" alt="Amazon RDS database instance" width="460"></td><td align="center" valign="top"><strong>Backend connectivity to MySQL (connection details redacted)</strong><br><img src="Screenshots/connected-db-from-backend.webp" alt="Backend connectivity to MySQL (connection details redacted)" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Database tables</strong><br><img src="Screenshots/tables-in-database.webp" alt="Database tables" width="460"></td><td align="center" valign="top"><strong>Database user table evidence (records redacted)</strong><br><img src="Screenshots/user-from-database.webp" alt="Database user table evidence (records redacted)" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Amazon RDS database</strong><br><img src="Screenshots/Database.jpg" alt="Amazon RDS database" width="460"></td><td align="center" valign="top"><strong>Tables in the database</strong><br><img src="Screenshots/tables-in-database.jpg" alt="Tables in the database" width="460"></td></tr>
 </table>
+
 
 ### Terraform Workflow
 
 <table>
-<tr><td align="center" valign="top"><strong>Terraform initialization</strong><br><img src="Screenshots/terraform-init.webp" alt="Terraform initialization" width="460"></td><td align="center" valign="top"><strong>Terraform plan</strong><br><img src="Screenshots/terraform-plan.webp" alt="Terraform plan" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Terraform apply completed (password redacted)</strong><br><img src="Screenshots/terraform-apply.webp" alt="Terraform apply completed (password redacted)" width="460"></td><td></td></tr>
+<tr><td align="center" valign="top"><strong>Terraform initialization</strong><br><img src="Screenshots/terraform-init.jpg" alt="Terraform initialization" width="460"></td><td align="center" valign="top"><strong>Terraform plan</strong><br><img src="Screenshots/terraform-plan.jpg" alt="Terraform plan" width="460"></td></tr>
 </table>
 
-### Compute Servers & Reverse Proxy
+
+### Compute Deployment & Reverse Proxy
 
 <table>
-<tr><td align="center" valign="top"><strong>Backend EC2 server</strong><br><img src="Screenshots/backend-server.webp" alt="Backend EC2 server" width="460"></td><td align="center" valign="top"><strong>Frontend server running</strong><br><img src="Screenshots/frontend-server-running.webp" alt="Frontend server running" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Backend process managed by PM2</strong><br><img src="Screenshots/backend-pm2-running.webp" alt="Backend process managed by PM2" width="460"></td><td align="center" valign="top"><strong>Nginx reverse proxy updated to use backend load balancer</strong><br><img src="Screenshots/updated-nginx-reverse-proxy-with-backend-lb.webp" alt="Nginx reverse proxy updated to use backend load balancer" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Backend server</strong><br><img src="Screenshots/backend-server.jpg" alt="Backend server" width="460"></td><td align="center" valign="top"><strong>Frontend server running</strong><br><img src="Screenshots/frontend-server-running.jpg" alt="Frontend server running" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Backend process running under PM2</strong><br><img src="Screenshots/backend-pm2-running.jpg" alt="Backend process running under PM2" width="460"></td><td align="center" valign="top"><strong>Nginx reverse proxy configured with backend load balancer</strong><br><img src="Screenshots/updated-nginx-reverse-proxy-with-backend-lb.jpg" alt="Nginx reverse proxy configured with backend load balancer" width="460"></td></tr>
 </table>
+
 
 ### Application Demonstration
 
 <table>
-<tr><td align="center" valign="top"><strong>Add book form</strong><br><img src="Screenshots/add-book-page.webp" alt="Add book form" width="460"></td><td align="center" valign="top"><strong>Book successfully added</strong><br><img src="Screenshots/added-a-new-book.webp" alt="Book successfully added" width="460"></td></tr>
-<tr><td align="center" valign="top"><strong>Book deletion flow</strong><br><img src="Screenshots/book-deleted.webp" alt="Book deletion flow" width="460"></td><td align="center" valign="top"><strong>Account registration form (personal fields redacted)</strong><br><img src="Screenshots/created-account.webp" alt="Account registration form (personal fields redacted)" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Add book form</strong><br><img src="Screenshots/add-book-page.jpg" alt="Add book form" width="460"></td><td align="center" valign="top"><strong>Book successfully added</strong><br><img src="Screenshots/added-a-new-book.jpg" alt="Book successfully added" width="460"></td></tr>
+<tr><td align="center" valign="top"><strong>Book deletion flow</strong><br><img src="Screenshots/book-deleted.jpg" alt="Book deletion flow" width="460"></td><td></td></tr>
 </table>
+
+
+### Screenshots to redact before adding to the gallery
+
+- `connected-db-from-backend.jpg` — review for database credentials or connection strings.
+- `terraform-apply.png` — review terminal output for secrets or passwords.
+- `created-account.jpg` — redact email addresses and other personal fields.
+- `user-from-database.jpg` — redact emails and password hashes.
 
 ## Security notes
 
